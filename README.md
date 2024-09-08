@@ -1,6 +1,6 @@
 # Asteroids Clone
 
-This project is a clone of the classic game Asteroids, implemented using the pygame library. It is based on a lesson from boot.dev.
+This project is a clone of the classic game Asteroids, implemented using the pygame library. It is based on a lesson from Boot.dev.
 
 ## Installation
 
@@ -28,12 +28,22 @@ This project is a clone of the classic game Asteroids, implemented using the pyg
     python main.py
     ```
 
-2. Use WASD to move and rotate the player.
+2. Controls:
+    - `WASD`: Move and rotate the player.
+    - `Spacebar`: Fire shots.
+
+3. Objective:
+    - Shoot the asteroids to split them into smaller asteroids.
+    - Avoid colliding with the asteroids.
 
 ## Code Structure
 
 - `main.py`: Contains the main game loop and initializes the game.
 - `player.py`: Defines the `Player` and `CircleShape` classes used to create and manage the player.
+- `asteroid.py`: Defines the `Asteroid` class which handles the asteroid behavior, including splitting into smaller asteroids.
+- `asteroidfield.py`: Manages a field of asteroids.
+- `shot.py`: Defines the `Shot` class to handle the behavior of shots fired by the player.
+- `constants.py`: Contains game constants like screen dimensions and asteroid properties.
 
 ## Contributions
 
