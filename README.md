@@ -6,8 +6,8 @@ This project is a clone of the classic game Asteroids, implemented using the pyg
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/asteroids-clone.git
-    cd asteroids-clone
+    git clone https://github.com/mattpotter28/asteroids.git
+    cd asteroids
     ```
 
 2. Create a virtual environment and activate it:
